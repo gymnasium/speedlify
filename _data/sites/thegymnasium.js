@@ -21,9 +21,9 @@ module.exports = {
 		"https://thegymnasium.com/design-systems",
 		"https://thegymnasium.com/jobs",
 		"https://thegymnasium.com/webinars",
-		// A couple of courses for good measure
-		"https://thegymnasium.com/courses/GYM/107/0/about",
-		"https://thegymnasium.com/courses/course-v1:GYM+019+0/about",
-		"https://thegymnasium.com/courses/take5/advanced-auto-layout-in-figma",
+		// Add one of each of our most popular courses by type
+		"https://thegymnasium.com/courses/GYM/103/0/about", // Full: UX Fundamentals
+		"https://thegymnasium.com/courses/course-v1:GYM+016+0/about", // Gym Short: Designing Responsible & Accessible Websites
+		"https://thegymnasium.com/courses/take5/adding-a-css-gradient-overlay-to-an-image", // Take 5
 	]
 };
