@@ -15,3 +15,6 @@ package = "./plugins/keep-data-cache"
 ## to = "https://www.speedlify.dev"
 ## status = 301
 ## force = true
+
+[build.environment]
+  TZ = "America/New_York"
