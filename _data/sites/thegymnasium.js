@@ -21,7 +21,9 @@ module.exports = {
 		"https://thegymnasium.com/design-systems",
 		"https://thegymnasium.com/jobs",
 		"https://thegymnasium.com/webinars",
-		"https://thegymnasium.com/web-development",
-		"https://thegymnasium.com/ux-design",
+		// A couple of courses for good measure
+		"https://thegymnasium.com/courses/GYM/107/0/about",
+		"https://thegymnasium.com/courses/course-v1:GYM+019+0/about",
+		"https://thegymnasium.com/courses/take5/advanced-auto-layout-in-figma",
 	]
 };
