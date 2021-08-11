@@ -32,7 +32,7 @@ _After cloning you’ll probably want to delete the initial `_data/sites/*.js` f
 
 Speedlify will also save your data to `/results.zip` so that you can download later. Though this has proved to be unnecessary so far, it does serve as a fallback backup mechanism in case the Netlify cache is lost. Just look up your previous build URL and download the data to restore.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7298a132-e366-460a-a4da-1ea352a4e790/deploy-status)](https://app.netlify.com/sites/speedlify/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bcffda64-cee1-49dd-abed-02a7aa436fb5/deploy-status)](https://app.netlify.com/sites/gym-speedlify/deploys)
 
 * **Run every day or week**: You can set Speedlify to run at a specified interval using a Netlify Build Hook, read more on the Eleventy docs: [Quick Tip #008—Trigger a Netlify Build Every Day with IFTTT](https://www.11ty.dev/docs/quicktips/netlify-ifttt/).
 
