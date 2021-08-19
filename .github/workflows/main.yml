@@ -3,9 +3,8 @@ name: Netlify Incremental Builds
 on:
   schedule:
     # use https://crontab.guru/ if you are having some difficulties on how to define the cron values
-    #- cron: '23 0-23/7 * * 1-5' # “At minute 23 past every 7th hour from 0 through 23 on every day-of-week from Monday through Friday.”
-    - cron: '23 0-23/3 * * 1-5' # “At minute 23 past every 3rd hour from 0 through 23 on every day-of-week from Monday through Friday.” (expedite courses.gymna.si data)
-    ## - cron: '*/5 * * * *' # every 5 minutes (testing)
+    #- cron: '23 0-23/7 * * 1-7' # “At minute 23 past every 7th hour from 0 through 23 on every day-of-week from Monday through Friday.”
+    - cron: '23 0-23/12 * * *' # “At minute 23 past every 12th hour from 0 through 23.”
 jobs:
   build:
     name: Netlify build

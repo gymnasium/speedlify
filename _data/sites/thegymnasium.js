@@ -4,7 +4,7 @@ module.exports = {
 	skip: false,
 	options: {
     // to set minimum time needed before next measurement
-		frequency: 60 * 7, // Max of once every 7 hours (see the github action for the actual CRON run time)
+		frequency: 60 * 12, // Max of once every 12 hours (see the github action for the actual CRON run time)
 		// Use "run" if the sites don’t share assets on the same origin
 		//           and we can reset chrome with each run instead of
 		//           each site in every run (it’s faster)
