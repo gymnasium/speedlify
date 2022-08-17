@@ -1,6 +1,6 @@
 module.exports = {
 	name: "thegymnasium.com", // optional, falls back to object key
-	description: "Gymnasium",
+	description: "Gymnasium production",
 	skip: false,
 	options: {
     // to set minimum time needed before next measurement
