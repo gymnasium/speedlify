@@ -3,7 +3,8 @@ name: Netlify Incremental Builds
 on:
   schedule:
     # use https://crontab.guru/ if you are having some difficulties on how to define the cron values
-    - cron: '55 10 * * 1,3,5' # “At 10:55am Monday Wednesday Friday.”
+    # - cron: '55 10 * * 1,3,5' # “At 10:55am Monday Wednesday Friday.”
+    - cron: '0 */3 * * *' # every 3 hourse
 jobs:
   build:
     name: Netlify build

@@ -1,6 +1,6 @@
 module.exports = {
-	name: "courses.gymna.si", // optional, falls back to object key
-	description: "Gymnasium staging",
+	name: "gymnasium.dev", // optional, falls back to object key
+	description: "Gymnasium dev",
 	skip: false,
 	options: {
     // to set minimum time needed before next measurement
