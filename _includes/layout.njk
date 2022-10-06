@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Speedlify</title>
 		<meta name="description" content="Benchmark web pages over time.">
+		<meta name="generator" content="{{ eleventy.generator }}">
 		<link rel="stylesheet" href="{{ '/style.css' | url }}">
 		<script>
 		document.documentElement.classList.add("js");
@@ -22,14 +23,14 @@
 			{%- endif %}
 			Created by <a href="https://www.zachleat.com/">@zachleat</a>.
 		</p>
+		<p class="speedlify-subhed">
+			<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
+		</p>
 
 		{{ content | safe }}
 
 		<footer>
-      <p class="speedlify-subhed">
-        <a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
-      </p>
-      <p>MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.</p>
+			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.
 		</footer>
 
 		<script defer src="{{ '/chartist.js' | url }}"></script>
