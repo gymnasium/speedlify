@@ -12,14 +12,14 @@ module.exports = {
 		freshChrome: "run"
 	},
 	urls: [
-		"https://courses.gymna.si/",
-		"https://courses.gymna.si/about",
-		"https://courses.gymna.si/accessibility",
-		"https://courses.gymna.si/courses",
-		"https://courses.gymna.si/jobs",
+		"https://gymnasium.dev/",
+		"https://gymnasium.dev/about",
+		"https://gymnasium.dev/accessibility",
+		"https://gymnasium.dev/courses",
+		"https://gymnasium.dev/jobs",
 		// Add one of each of our most popular courses by type
-		"https://courses.gymna.si/courses/GYM/103/0/about", // Full: UX Fundamentals
-		"https://courses.gymna.si/courses/course-v1:GYM+016+0/about", // Gym Short: Designing Responsible & Accessible Websites
-		"https://courses.gymna.si/courses/take5/adding-a-css-gradient-overlay-to-an-image", // Take 5
+		"https://gymnasium.dev/courses/GYM/103/0/about", // Full: UX Fundamentals
+		"https://gymnasium.dev/courses/course-v1:GYM+016+0/about", // Gym Short: Designing Responsible & Accessible Websites
+		"https://gymnasium.dev/courses/take5/adding-a-css-gradient-overlay-to-an-image", // Take 5
 	]
 };
